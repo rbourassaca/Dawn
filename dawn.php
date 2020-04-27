@@ -2,12 +2,12 @@
 
 /*
 Plugin Name: Dawn
-Plugin URI: 
+Plugin URI: https://github.com/rbourassaca/Dawn
 Description: Wordpress admin theme for rbourassa's client.
 Author: rbourassa
 Version: 0.1
 Author URI: https://rbourassa.ca
-GitHub Plugin URI: 
+GitHub Plugin URI: https://github.com/rbourassaca/Dawn
 */
 
 add_action('admin_enqueue_scripts', 'admin_theme');
