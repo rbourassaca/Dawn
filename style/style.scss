@@ -9,6 +9,7 @@ $link: #0073aa;
 $watermark-size: 200px;
 $watermark-padding: 30px;
 $menu_left_width: 250px;
+$menu_left_popup_width: 175px;
 
 
 
@@ -599,9 +600,10 @@ ul#adminmenu{
 ul.wp-submenu{
     width: $menu_left_width !important;
 }
-li.opensub{
+li.opensub:not(.wp-has-current-submenu){
     ul.wp-submenu{
         left: $menu_left_width !important;
+        width: $menu_left_popup_width !important;
     }
 }
 

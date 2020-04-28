@@ -598,8 +598,9 @@ ul.wp-submenu {
   width: 250px !important;
 }
 
-li.opensub ul.wp-submenu {
+li.opensub:not(.wp-has-current-submenu) ul.wp-submenu {
   left: 250px !important;
+  width: 175px !important;
 }
 
 /* --- */
