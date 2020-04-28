@@ -11,6 +11,7 @@ GitHub Plugin URI: https://github.com/rbourassaca/Dawn
 */
 
 add_action('admin_enqueue_scripts', 'admin_theme');
+add_action( 'wp_enqueue_scripts', 'admin_theme');
 add_action('login_enqueue_scripts', 'admin_theme');
 add_filter('admin_footer_text', 'footerText');
 
