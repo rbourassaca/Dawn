@@ -1,4 +1,5 @@
 /* Colors */
+$background_body: #fff;
 $background: #161619;
 $background_secondary: #222327;
 $text: #fff;
@@ -15,7 +16,7 @@ $menu_left_popup_width: 175px;
 
 /* Colors */
 body {
-    background: #f1f1f1
+    background: $background_body
 }
 
 a {
@@ -230,8 +231,8 @@ textarea:focus {
 .about-wrap .nav-tab-active,
 .nav-tab-active,
 .nav-tab-active:hover {
-    background-color: #f1f1f1;
-    border-bottom-color: #f1f1f1
+    background-color: $background_body;
+    border-bottom-color: $background_body
 }
 
 #adminmenu .wp-has-current-submenu .wp-submenu,
@@ -288,7 +289,7 @@ textarea:focus {
 
 ul#adminmenu a.wp-has-current-submenu:after,
 ul#adminmenu>li.current>a.current:after {
-    border-right-color: #f1f1f1
+    border-right-color: $background_body
 }
 
 #adminmenu li.current a.menu-top,
