@@ -12,7 +12,8 @@ $watermark-padding: 30px;
 $menu_left_width: 250px;
 $menu_left_popup_width: 175px;
 
-
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Colors */
 body {
@@ -580,6 +581,13 @@ div#wp-responsive-toggle a:before {
     background: $selection
 }
 /* --- */
+
+body.wp-admin{
+    font-family: 'Roboto', sans-serif;
+    h1{
+        font-weight: bold;
+    }
+}
 
 /* Width menu left*/
 div#wpcontent{

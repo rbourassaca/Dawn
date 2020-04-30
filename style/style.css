@@ -1,5 +1,6 @@
 /* Colors */
 /* --- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* Colors */
 body {
   background: #fff;
@@ -577,6 +578,14 @@ div#wp-responsive-toggle a:before {
 }
 
 /* --- */
+body.wp-admin {
+  font-family: 'Roboto', sans-serif;
+}
+
+body.wp-admin h1 {
+  font-weight: bold;
+}
+
 /* Width menu left*/
 div#wpcontent {
   margin-left: 250px;
