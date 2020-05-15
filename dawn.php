@@ -5,7 +5,7 @@ Plugin Name: Dawn
 Plugin URI: https://github.com/rbourassaca/Dawn
 Description: Wordpress admin theme for rbourassa's client.
 Author: Raphael Bourassa
-Version: 0.2
+Version: 0.3
 Author URI: https://rbourassa.ca
 */
 
