@@ -29,7 +29,7 @@ function footerText() {
 
 function editAdminThemeSelection(){
     global $_wp_admin_css_colors;
-    $_wp_admin_css_colors = array( 'dawn' => $_wp_admin_css_colors['fresh'] );
+    $_wp_admin_css_colors = array( 'dawn' => $_wp_admin_css_colors['midnight'] );
 }
 
 function forceColorScheme($color){

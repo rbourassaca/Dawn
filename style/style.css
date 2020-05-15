@@ -34,7 +34,7 @@ input[type=radio]:checked::before {
 
 .wp-core-ui input[type=reset]:active,
 .wp-core-ui input[type=reset]:hover {
-  color: #0096dd;
+  color: #03a9f4;
 }
 
 input[type=checkbox]:focus,
@@ -199,7 +199,7 @@ textarea:focus {
 }
 
 #adminmenu div.wp-menu-image:before {
-  color: #f1f2f3;
+  color: #fff;
 }
 
 #adminmenu a:hover,

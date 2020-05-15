@@ -3,6 +3,7 @@ $background_body: #fff;
 $background: #161619;
 $background_secondary: #222327;
 $text: #fff;
+$icon: #fff;
 $selection: #03a9f4;
 $link: #0073aa;
 /* --- */
@@ -48,7 +49,7 @@ input[type=radio]:checked::before {
 
 .wp-core-ui input[type=reset]:active,
 .wp-core-ui input[type=reset]:hover {
-    color: #0096dd
+    color: $selection;
 }
 
 input[type=checkbox]:focus,
@@ -213,7 +214,7 @@ textarea:focus {
 }
 
 #adminmenu div.wp-menu-image:before {
-    color: #f1f2f3
+    color: $icon;
 }
 
 #adminmenu a:hover,
