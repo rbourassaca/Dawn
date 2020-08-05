@@ -29,11 +29,11 @@ function footerText() {
 
 function editAdminThemeSelection(){
     global $_wp_admin_css_colors;
-    $_wp_admin_css_colors = array( 'dawn' => $_wp_admin_css_colors['midnight'] );
+    $_wp_admin_css_colors['fresh']->icon_colors = array('base' => '#fff', 'focus' => '#fff', 'current' => '#fff');
 }
 
 function forceColorScheme($color){
-    return 'dawn';
+    return 'fresh';
 }
 
 ?>

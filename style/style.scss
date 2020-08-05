@@ -1,7 +1,7 @@
 /* Colors */
-$background_body: #fff;
 $background: #161619;
 $background_secondary: #222327;
+$background_body: lighten($background, 85%);
 $text: #fff;
 $icon: #fff;
 $selection: #03a9f4;

@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* Colors */
 body {
-  background: #fff;
+  background: #efeff1;
 }
 
 a {
@@ -218,8 +218,8 @@ textarea:focus {
 .about-wrap .nav-tab-active,
 .nav-tab-active,
 .nav-tab-active:hover {
-  background-color: #fff;
-  border-bottom-color: #fff;
+  background-color: #efeff1;
+  border-bottom-color: #efeff1;
 }
 
 #adminmenu .wp-has-current-submenu .wp-submenu,
@@ -276,7 +276,7 @@ textarea:focus {
 
 ul#adminmenu a.wp-has-current-submenu:after,
 ul#adminmenu > li.current > a.current:after {
-  border-right-color: #fff;
+  border-right-color: #efeff1;
 }
 
 #adminmenu li.current a.menu-top,
