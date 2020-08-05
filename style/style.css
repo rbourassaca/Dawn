@@ -569,9 +569,8 @@ div#wp-responsive-toggle a:before {
 
 /* --- */
 body.wp-admin {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 body.wp-admin h1 {
   font-weight: bold;
 }
@@ -613,9 +612,8 @@ li#wp-admin-bar-wp-logo {
 div#adminmenuwrap ul#adminmenu {
   margin-top: 0px;
 }
-
 div#adminmenuwrap ul#adminmenu::before {
-  content: ' ';
+  content: " ";
   display: block;
   background-image: url("../img/logo/Logo.png");
   background-size: contain;
